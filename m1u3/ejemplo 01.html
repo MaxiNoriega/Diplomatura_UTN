@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Costa del Sol</title>
 </head>
+
 <body>
+    
     <h1>Bienvenidos a Costa del Sol</h1>
+    
     <!--voy a presentar la ciudad de Málaga-->
     
-    <img src="img/malaga city.jpg" alt="malaga city" width="1500" height="500">
+        <img src="img/malaga city.jpg" alt="malaga city" width="1500" height="500">
 
         <p>Desde Marzo de este año Malaga se a transformado para mi familia en nuestro nuevo hoagar. Como miles de Argentinos 
         hemos decidido emprender esta aventura buscando un lugar mas tranquilo donde vivir y criar a nuestros hijos.
@@ -33,6 +36,7 @@
         </ul>
      
     <h2>Gastronomia</h2>
+        
         <img src="paella.jpg" alt="paella" width="250" height="250">
         
         <p>La gastronomía de Málaga es el conjunto de platos típicos en la mesa de la provincia de Málaga,
@@ -60,21 +64,96 @@
     
     <h2>Ejemplo etiquetas SVG</h2>
     
-    <svg width="200" height="200">
-        <circle cx="100" cy="100" r="50" stroke="black" stroke-width="5" fill="yellow"></circle>
-        <line x1="100" y1="100" x2="150" y2="100" stroke="red" stroke-width="4"></line>
-    </svg>
+        <svg width="200" height="200">
+            <circle cx="100" cy="100" r="50" stroke="black" stroke-width="5" fill="yellow"></circle>
+            <line x1="100" y1="100" x2="150" y2="100" stroke="red" stroke-width="4"></line>
+        </svg>
 
-    <div style="background-color: rgb(102, 111, 111);" style="color: black;">
-        <h2>Su música</h2>
+    <div style="background-color: rgb(139, 153, 153);" style="color: black;">
+    
+    <h2>Eventos</h2>
+        
         <img src="img/flamenco.jpg" alt="flamenco">
-        <P></P>El flamenco es un género musical español que se desarrolló en Andalucía, especialmente en las zonas de Cádiz
+        
+        <P>El flamenco es un género musical español que se desarrolló en Andalucía, especialmente en las zonas de Cádiz
          y sus puertos, San Fernando, Jerez de la Frontera (lugar donde se encuentra el primer vestigio escrito de este arte),
           Sevilla y los pueblos de su provincia como Lebrija y Utrera, Huelva, Granada y Córdoba así como en algunas áreas de la Región
            de Murcia, Castilla-La Mancha y Extremadura.
-           ​ Sus principales facetas son el cante, el toque, y el baile, contando también con sus propias tradiciones y normas.
+            Sus principales facetas son el cante, el toque, y el baile, contando también con sus propias tradiciones y normas.</P>
 
     </div>
     
+    <div style="background-color: antiquewhite;">
+    
+    <h2>Formulario</h2>
+
+    <form action="" method=""> <!--Etiqueta para crear formularios-->
+        <p>
+            <label for="nom">Nombre</label> <!--Muestra el tipo de dato que se necesita fuera de la casilla-->
+            <input type="text" name="nombre"/>
+        </p>
+        <p>
+            <label for="apell">Apellido</label> <!--Muestra el tipo de dato que se necesita dentro de la casilla-->
+            <input type="text" name="apell"/>
+        </p>
+        <p>
+            <input type="text" name="email" placeholder="Email"/> <!--Muestra el tipo de dato a ingresar dentro de la casilla-->
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass"> <!--Deja oculto el texto introducido-->
+        </p>
+
+        <label for="sexo">Sexo</label> <!--Voy a crear etiquetas seleccionables con tilde-->
+            <ul>
+                <li>
+                    <input type="radio" name="sexo" value="hombre">
+                    <label>Hombre</label>
+                </li>
+                <li>
+                    <!--<label>Mujer</label>-->
+                    <input type="radio" name="sexo" value="mujer">
+                    <label>Mujer</label> <!--Si coloco esta linea arriba de input cambia de lugar la tilde-->
+                </li>
+            </ul>
+        
+        <label>Categorias</label>
+            <ol>
+                <li>
+                    <input type="checkbox" name="Categorias[]" value="lugares de interes" id="lugares de interes">
+                    <label for="lugares de interes">Lugares de interes</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Categorias[]" value="gastronimia" id="gastronomia">
+                    <label for="gastronomia">Gastronomia</label> <!--Si coloco esta linea arriba de input cambia de lugar la tilde-->
+                </li>
+                <li>
+                    <input type="checkbox" name="Categorias[]" value="eventos" id="eventos">
+                    <label for="eventos">Eventos</label>
+                </li>
+            </ol>
+
+            <p>
+                <label for="titulo">Valoracion</label>
+                <select name="titulo"> <!--Crearemos una lista desplegable para las opciones-->
+                    <option value="muy malo">Muy malo</option>
+                    <option value="malo">Malo</option>
+                    <option value="bueno">Bueno</option>
+                    <option value="excelente">Excelente</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="comentario">Comentarios</label>
+                <textarea name="comentarios"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>   
+    </form>
+    </div>
+
 </body>
 </html>

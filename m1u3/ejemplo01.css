@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    font-size: 100px;
+    background-color: aquamarine;
+    text-transform: capitalize;
+    color: blue;
+}
+
+/*comentario en CSS*/
+
+h2{
+    color: brown;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+
+.destacado{
+    font-size: 18px;
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.destacado2{
+    font-size: 18px;
+    color: blue;
+}
+
+.destacado3{
+    font-size: 18ppx;
+    font-style: italic;    
+}
+
+#caja{
+    background-color: yellow;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    border: 10px solid red;
+}
+
+#caja2{
+    background-color: yellow;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 700px;
+    margin-top: -580px;
+    border-radius: 20px ;
+    border: 10px dashed red;
+}
+
+#caja2 p{
+    font-size: 18px;
+    font-style: italic;
+}
+
+li{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+form{
+    font-size: 18px;
+}

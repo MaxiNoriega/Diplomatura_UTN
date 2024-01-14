@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(26, 24, 24);
+}
+
+#container-expand {
+    padding: 20px;
+    border: 75px rgb(204, 8, 8);
+}

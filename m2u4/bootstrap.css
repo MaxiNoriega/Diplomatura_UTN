@@ -1,9 +1,9 @@
 body{
-    background-color: blue;
+    background-color: rgb(42, 42, 48);
 }
 
 .card-body {
-    background-color: aqua;
+    background-color:rgb(120, 116, 116);
 }
 
 /* trate de dejar el navegador fijo pero no puedo, me esta costando implementar css en el codigo que copio de bootstrap
@@ -26,4 +26,18 @@ body{
     color: white;
     align-content: center;
     font-weight: 100px;
+}
+
+.card-title{
+    color: aliceblue;
+}
+
+.card-text{
+    color: aliceblue;
+}
+
+.col-8{
+    color: white;
+    padding: 15px;
+    
 }

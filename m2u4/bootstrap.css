@@ -1,8 +1,29 @@
 body{
-    background-color: rgb(26, 24, 24);
+    background-color: blue;
 }
 
-#container-expand {
-    padding: 20px;
-    border: 75px rgb(204, 8, 8);
+.card-body {
+    background-color: aqua;
+}
+
+/* trate de dejar el navegador fijo pero no puedo, me esta costando implementar css en el codigo que copio de bootstrap
+
+.container-fluid{
+    position: fixed;
+    top: 0px;
+	
+}*/
+
+.subtitulo {
+    font-size: 40px;
+    font-weight: 800px;
+    color: white;
+}
+
+.text-form{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    align-content: center;
+    font-weight: 100px;
 }

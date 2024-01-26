@@ -41,3 +41,14 @@ body{
     padding: 15px;
     
 }
+
+.top-navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.page-content {
+    margin-top: 72px !important;
+}

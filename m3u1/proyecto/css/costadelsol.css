@@ -4,13 +4,13 @@ font-family: 'Shadows Into Light', cursive;
 */
 
 
-/*Trabajo el cuerpo*/
+/*----------------------------------------------Trabajo el cuerpo-------------------------------------------------------*/
 
 body{
     font-family: 'Merriweather', serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
-    background-color: rgb(201, 254, 214);   
+    background-color: rgb(227, 207, 177);   
 }
 
 p{
@@ -18,15 +18,15 @@ p{
 }
 
 .holder{
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
-/*Trabajo la cabecera*/
+/*----------------------------------------------Trabajo la cabecera----------------------------------------------------*/
 
 header{
-    
-    background: linear-gradient(45deg, rgb(125, 223, 230) 0%,rgb(203,255,221) 71%,rgb(246, 238, 14) 100%);;
+    flex-wrap: nowrap;
+    background: linear-gradient(45deg, rgb(125, 223, 230) 20%,rgb(203,255,221) 51%,rgb(246, 238, 14) 100%);;
     padding: 10px;
     height: 150px;
 }
@@ -51,7 +51,7 @@ header h1{
     margin-left: 20px;
 }
 
-/*Trabajo el nav*/
+/*---------------------------------------------Trabajo el nav--------------------------------------------------------*/
 
 nav{
     background: linear-gradient(to right, rgb(16, 167, 221), rgb(151, 225, 243));
@@ -91,12 +91,32 @@ nav ul li a.activo{
     font-weight: bolder;
 }
 
-/*Trabajo con el cuerpo*/
+/*----------------------------------------------Trabajo con el cuerpo--------------------------------------------------*/
+.imageneshome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
-/*Trabajo el footer*/
+.imagenhome1{
+    border: 10px solid rgb(114, 180, 238);
+}
+
+.imagenhome2{
+    border: 10px solid rgb(114, 180, 238);
+}
+
+.imagenhome3{
+    border: 10px solid rgb(114, 180, 238);
+}
+/*----------------------------------------------Trabajo el footer------------------------------------------------------*/
+
 footer{
-    background-color: grey;
+    background-color: rgb(49, 51, 50);
     clear: both;
+    color:aliceblue
  }
 
 .footer0{
@@ -115,3 +135,6 @@ footer{
     justify-content: space-between;
 }
 
+i{
+    color: aliceblue;
+}

@@ -8,13 +8,14 @@ font-family: 'Shadows Into Light', cursive;
 
 body{
     font-family: 'Merriweather', serif;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 20px;
     background-color: rgb(227, 207, 177);   
 }
 
 p{
     text-align: justify;
+    font-size: 16px;
 }
 
 .holder{
@@ -22,11 +23,17 @@ p{
     margin: 0 auto;
 }
 
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(246, 85, 36);
+}
+
 /*----------------------------------------------Trabajo la cabecera----------------------------------------------------*/
 
 header{
     flex-wrap: nowrap;
-    background: linear-gradient(45deg, rgb(125, 223, 230) 20%,rgb(203,255,221) 51%,rgb(246, 238, 14) 100%);;
+    background: linear-gradient(-45deg, rgb(125, 223, 230) 20%,rgb(203,255,221) 51%,rgb(246, 238, 14) 100%);;
     padding: 10px;
     height: 150px;
 }
@@ -41,14 +48,14 @@ header img{
 
 header h1{
     font-family: 'Shadows Into Light', cursive;
-    font-size: 80px;
+    font-size: 60px;
     font-style: italic;
-    font-weight: 300px;
+    font-weight: 300;
     color: rgb(80, 75, 75);
     display: inline-block;
     position: relative;
-    bottom: 40px;
-    margin-left: 20px;
+    bottom: 45px;
+    margin-left: 40px;
 }
 
 /*---------------------------------------------Trabajo el nav--------------------------------------------------------*/
@@ -92,24 +99,30 @@ nav ul li a.activo{
 }
 
 /*----------------------------------------------Trabajo con el cuerpo--------------------------------------------------*/
+
 .imageneshome{
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /*margin-bottom: 20px*/
+    margin-top: 20px;
 }
 
-/*.imagenhome1{
-    border: 10px solid rgb(114, 180, 238);
-}*/
+.imagenhome1{
+   /*border: 10px solid rgb(114, 180, 238);*/
+}
 
 .imagenhome2{
-    border: 10px solid rgb(114, 180, 238);
+    /*border: 10px solid rgb(114, 180, 238);*/
 }
 
 .imagenhome3{
-    border: 10px solid rgb(114, 180, 238);
+    /*border: 10px solid rgb(114, 180, 238);*/
+}
+
+.imagenhome4{
+    /*border: 10px solid rgb(114, 180, 238);*/
 }
 /*----------------------------------------------Trabajo el footer------------------------------------------------------*/
 
@@ -119,7 +132,7 @@ footer{
     clear: both;
     color:aliceblue
     
- }
+}
 
 .footer0{
     justify-content: space-between;
@@ -130,7 +143,7 @@ footer{
 }
 
 .footer2{
-    width: 100px;
+    width: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -140,3 +153,5 @@ footer{
 i{
     color: aliceblue;
 }
+
+/*-------------------------------------------------Fin HOME------------------------------------------------------------*/

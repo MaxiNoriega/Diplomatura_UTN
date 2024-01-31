@@ -6,24 +6,24 @@ font-family: 'Shadows Into Light', cursive;
 
 /*----------------------------------------------Trabajo el cuerpo-------------------------------------------------------*/
 
-body{
+body {
     font-family: 'Merriweather', serif;
     font-size: 12px;
     line-height: 20px;
-    background-color: rgb(227, 207, 177);   
+    background-color: rgb(227, 207, 177);
 }
 
-p{
+p {
     text-align: justify;
     font-size: 16px;
 }
 
-.holder{
+.holder {
     max-width: 1080px;
     margin: 0 auto;
 }
 
-h2{
+h2 {
     font-weight: 400;
     font-size: 20px;
     color: rgb(65, 65, 64);
@@ -31,14 +31,15 @@ h2{
 
 /*----------------------------------------------Trabajo la cabecera----------------------------------------------------*/
 
-header{
+header {
     flex-wrap: nowrap;
-    background: linear-gradient(-45deg, rgb(125, 223, 230) 20%,rgb(203,255,221) 51%,rgb(246, 238, 14) 100%);;
+    background: linear-gradient(-45deg, rgb(125, 223, 230) 20%, rgb(203, 255, 221) 51%, rgb(246, 238, 14) 100%);
+    ;
     padding: 10px;
     height: 100px;
 }
 
-header img{
+header img {
     border-radius: 50%;
     width: 100px;
     display: inline-block;
@@ -46,7 +47,7 @@ header img{
     margin-left: 20px;
 }
 
-header h1{    
+header h1 {
     font-family: 'Shadows Into Light', cursive;
     font-size: 60px;
     font-style: italic;
@@ -60,14 +61,14 @@ header h1{
 
 /*---------------------------------------------Trabajo el nav--------------------------------------------------------*/
 
-nav{
+nav {
     background: linear-gradient(to right, rgb(16, 167, 221), rgb(151, 225, 243));
     border-bottom: 4px solid orange;
     display: block;
     flex-direction: row;
 }
 
-nav ul{
+nav ul {
     font-style: italic;
     list-style: none;
     margin: 0;
@@ -76,11 +77,11 @@ nav ul{
     /*align-content: flex-start;*/
 }
 
-nav ul li{
+nav ul li {
     flex-grow: 1;
 }
 
-nav ul li a{
+nav ul li a {
     color: black;
     text-decoration: none;
     padding: 3px 6px;
@@ -88,19 +89,19 @@ nav ul li a{
     text-align: center;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     background-color: orange;
 
 }
 
-nav ul li a.activo{
+nav ul li a.activo {
     background-color: orange;
     font-weight: bolder;
 }
 
 /*----------------------------------------------Trabajo con el cuerpo--------------------------------------------------*/
 
-.imageneshome{
+.imageneshome {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -108,32 +109,32 @@ nav ul li a.activo{
     margin-top: 20px;
 }
 
-.imagenhome1{
-   /*border: 10px solid rgb(114, 180, 238);*/
-}
-
-.imagenhome2{
+.imagenhome1 {
     /*border: 10px solid rgb(114, 180, 238);*/
 }
 
-.imagenhome3{
+.imagenhome2 {
     /*border: 10px solid rgb(114, 180, 238);*/
 }
 
-.imagenhome4{
+.imagenhome3 {
     /*border: 10px solid rgb(114, 180, 238);*/
 }
+
+.imagenhome4 {
+    /*border: 10px solid rgb(114, 180, 238);*/
+}
+
 /*----------------------------------------------Trabajo el footer------------------------------------------------------*/
 
-footer{
+footer {
     margin-top: 20px;
     background-color: rgb(49, 51, 50);
     clear: both;
-    color:aliceblue
-    
+    color: aliceblue
 }
 
-.footer0{
+.footer0 {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -141,7 +142,7 @@ footer{
     align-items: center;
 }
 
-.footer2{
+.footer2 {
     width: 10%;
     display: flex;
     flex-direction: row;
@@ -149,7 +150,7 @@ footer{
     justify-content: space-between;
 }
 
-i{
+i {
     color: aliceblue;
 }
 
@@ -157,39 +158,41 @@ i{
 
 /*-------------------------------------------------Inicio Nosotros----------------------------------------------------*/
 
-.historia p{
+.historia p {
     font-size: 14px;
 }
 
-.persona{
+.persona {
     border-radius: 5px;
     border: 5px solid rgb(94, 93, 92);
     width: 18%;
     text-align: center;
     padding: 13px;
-    box-sizing: border-box;/*evita que la caja se agrande ya que tiene dimension de 18%*/
+    box-sizing: border-box;
+    /*evita que la caja se agrande ya que tiene dimension de 18%*/
     background-color: rgb(214, 204, 204);
-    -webkit-box-align: 1px 25px 29px -22px rgba(0,0,0,0.75);
-    -moz-box-shadow: 1px 25px 29px -22px rgba(0,0,0,0.75);
-    box-shadow: 1px 25px 29px -22px rgba(0,0,0,0.75);
+    -webkit-box-align: 1px 25px 29px -22px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 25px 29px -22px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 25px 29px -22px rgba(0, 0, 0, 0.75);
 }
 
-.persona p{
+.persona p {
     font-size: 12px;
     color: rgb(102, 87, 22);
 }
 
-.personas{
+.personas {
     display: flex;
     justify-content: space-between;
 }
 
-.persona img{
+.persona img {
     border-radius: 50%;
     max-width: 70%;
 }
 
-.persona h4, .persona h5{
+.persona h4,
+.persona h5 {
     font-weight: normal;
     color: rgb(102, 87, 22);
 }
@@ -198,56 +201,60 @@ i{
 /*--------------------------------------------------Fin NOSOTROS-----------------------------------------------------*/
 
 /*--------------------------------------------------INICIO GASTRONOMIA-------------------------------------------*/
-.holder h2{
+.holder h2 {
     margin-top: 30px;
 }
 
-.comidas{
+.comidas {
     height: auto;
     border: 3px solid rgb(102, 87, 22);
     border-radius: 10px;
     padding: 10px;
     display: flex;
     flex-direction: row;
-    margin: 15px 0;
+    margin: 30px 0;
     gap: 30px;
     align-items: start;
+    -webkit-box-shadow: -20px 13px 17px -3px rgba(125,125,121,0.91);
+    -moz-box-shadow: -20px 13px 17px -3px rgba(125,125,121,0.91);
+    box-shadow: -20px 13px 17px -3px rgba(125,125,121,0.91);
 }
 
-.comida{
+.comida {
     display: flex;
     width: 300px;
     height: 250px;
 }
 
-.comida img{
+.comida img {
     border-radius: 10px;
     width: 0px;
     flex-grow: 1;
     object-fit: cover;
-    opacity: 0,8;
+    opacity: 0, 8;
     transition: .5 ease;
 }
 
-.comida img:hover{
+.comida img:hover {
     cursor: crosshair;
     width: 250px;
     opacity: 1;
     filter: contrast(120%);
 }
 
-.info{
-    padding: 20px; 
+.info {
+    padding: 20px;
     width: 65%;
 }
 
-.info h2{
+.info h2 {
     border-bottom: 3px solid orangered;
     font-style: italic;
     padding-bottom: 15px;
     font-weight: 400;
 }
-.info p{
+
+.info p {
     font-size: 12px;
 
 }
@@ -256,3 +263,82 @@ i{
     flex-direction: row-reverse;
 }
 
+/*-----------------------------------------FIN GASTRONOMIA-------------------------------------------*/
+
+/*----------------------------------------INICIO CONTACTOS------------------------------------------*/
+
+.contactos{
+    display: flex;
+    gap: 20px;
+}
+
+.contacto{
+    width: 60%;
+    padding: 10px;
+}    
+
+.contacto ul{
+    display: flex;
+    margin-left: -45px;
+    gap: 10px;
+    flex-grow: 1;
+    font-size: 14px;
+    list-style: none;
+}
+
+.contacto h2{
+    border-bottom: 2px solid orangered;;
+}
+
+.contacto input[type="text"]{
+    width: 350px;
+}
+
+.contacto input[type="submit"]{
+    background: rgb(231, 180, 104);
+    box-shadow: 0 0 10px rgba(12, 12, 11, 0.4);
+    color: white;
+    font-size: 14px;
+    padding: 6px 20px;
+    border-radius: 5px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: start;
+}
+
+.formulario p:nth-child(5){
+    align-items: start;
+}
+
+.formulario textarea{
+    background-color: aliceblue;
+    width: 350px;
+}
+
+.datos{
+    width: 40%;
+    padding: 10px;
+}
+
+.datos ul li{
+    font-size: 14px;
+}
+
+.datos ul{
+    margin-left: -25px;
+}
+
+.datos h2{
+    border-bottom: 2px solid orangered;;
+}

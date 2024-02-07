@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de array, numero mayor m3u3</title>
+</head>
+<body>
+    <script>
+        let nroMax = []
+        let i = 0
+        const cant = prompt ('ingrese la cant de numeros que quiere comparar','')
+
+        // uso el FOR para cargar el array (VECTOR)
+
+        for (i = 0; i <cant; i ++){
+            nroMax [i] = prompt('ingrese un numer','')
+        }
+
+        document.write('los numeros ingresados son ', (nroMax))
+
+        let maximo = 0;
+
+        for (i = 0; i < cant; i ++){
+            
+            if (maximo < nroMax [i]){
+                maximo = nroMax [i]
+            } 
+        }
+
+        document.write (`. El numero mayor es: ${maximo}`) //porque no funciona si uso valores mayores a 100
+
+    </script>
+
+</body>
+</html>

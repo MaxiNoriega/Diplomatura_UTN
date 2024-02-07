@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de distancia m3u3</title>
+</head>
+<body>
+    <script>
+        distancia = prompt('ingrese la distanca de su viaje en metros:', '') //pide que el usuario ingrese un numero y lo guarda
+        
+        
+        if (distancia >=0 && distancia <= 1000){
+            document.write ('La mejor opcion es ir a pie')
+        } else if (distancia <= 10000 ){
+            document.write ('La mejor opcion es ir en bicicleta')
+        } else if ( distancia <= 30000){
+            document.write ('La mejor opcion es ir en colectivo')
+        } else if ( distancia <=100000){
+            document.write ('La mejor opcion es ir en auto')
+        } else if (distancia > 100000){
+            document.write ('La mejor opcion es ir el avión')
+        } else {
+            document.write ('el valor ingresado no es correcto') //Profe, porque no funciona con valores de numeros negativos, pero si con letras?
+        }
+
+    </script>
+
+</body>
+</html>

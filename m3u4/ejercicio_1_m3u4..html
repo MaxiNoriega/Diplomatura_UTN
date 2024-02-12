@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 1 m3u4</title>
+    <link rel="stylesheet" href="ejercicio_1_m3u4.css">
+</head>
+<body>
+    <!--Asigno los botones que voy a clickear para cambiar el background-->
+    <button id="caja_1" value="black" onclick="cambiaColor1()"></button>
+    <button id="caja_2" value="red" onclick="cambiaColor2()"></button>
+    <button id="caja_3" value="blue" onclick="cambiaColor3()"></button>
+    
+    <script>
+    //Declaro las variables apara controlar los botones con el ID-->
+
+        const btnBlack = document.getElementById('caja_1'); 
+        const btnRed = document.getElementById('caja_2');
+        const btnBlue = document.getElementById('caja_3');
+    
+    //Corro las funciones para cada ID con la condicion de que si el Value de mi variable declarada es == al calor de este cambie el bg-->
+
+        function cambiaColor1(){
+            if (btnBlack.value == "black"){
+                document.body.style.background = btnBlack.value;
+            } 
+        }
+
+        function cambiaColor2(){
+        if (btnRed.value == "red"){
+                document.body.style.background = btnRed.value;
+            }
+        }
+
+        function cambiaColor3(){
+        if (btnBlue.value == "blue"){
+                document.body.style.background = btnBlue.value;
+            }
+        }
+
+    </script>
+   
+</body>
+</html>

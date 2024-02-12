@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 2 m3u4</title>
+</head>
+
+<body>
+    <h1>Ejercicio 2-m3u4</h1>
+
+    <textarea name="Mensaje" onkeyup="cantCaracteres(this);"></textarea>
+    <p id="caracteres">0 caracteres</p>
+
+    <script>
+        function cantCaracteres(obj) {
+            document.getElementById("caracteres").innerHTML = obj.value.length + ' caracteres';
+        }
+    </script>
+
+</body>
+
+</html>

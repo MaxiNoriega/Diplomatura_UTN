@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: row;
+} 
+
+button{
+    width: 100px;
+    height: 100px;
+}
+
+#caja_1{
+    background-color: black;
+}
+
+#caja_2{
+    background-color: red;
+}
+
+#caja_3{
+    background-color: blue;
+}

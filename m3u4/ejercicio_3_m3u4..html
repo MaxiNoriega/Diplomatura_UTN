@@ -19,10 +19,14 @@
             {nombre: 'Raul Sanchez', nota: 7}, {nombre: 'Sandra Figueroa',nota: 8}];
         
         
-        var aprobados = alumnos.filter(function(alumnos){return alumnos.nota >= 7});
+        var aprobados = alumnos.filter(function(alumno){return alumno.nota >= 7});
 
         console.log(aprobados);
         console.log (`${aprobados.length} aprobados`);
+
+        aprobados.forEach(
+            function(alumnoAprobado) { document.write (`<p> Alumno ${i+1}: ${alumnoAprobado.nombre}, Nota: ${alumnoAprobado.nota} <p>`) }
+        )
 
         for (var i = 0; i < aprobados.length; i ++){
             document.write (`<p> Alumno ${i+1}: ${aprobados[i].nombre}, Nota: ${aprobados[i].nota} <p>`)

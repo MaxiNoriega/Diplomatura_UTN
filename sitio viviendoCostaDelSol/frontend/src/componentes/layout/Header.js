@@ -1,6 +1,11 @@
 const Header = (props) => {
     return (
-        <div>Soy el cabezal</div>
+        <Header>
+            <div className = "holder">
+                <img src="img/logo.jfif" width="150" alt="logo"></img>
+                <h1>Viviendo Costa del Sol !!!</h1>
+            </div>
+        </Header>
     );
 }
 

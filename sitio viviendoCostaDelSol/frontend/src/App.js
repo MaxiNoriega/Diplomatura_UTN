@@ -15,7 +15,7 @@ import LugaresPage from "./pages/LugaresPage";
 import ExcursionesPage from "./pages/ExcursionesPage";
 import ContactoPage from "./pages/ContactoPage";
 
-function App() {
+function App () {
   return (
     <div className="App">
       <Header />

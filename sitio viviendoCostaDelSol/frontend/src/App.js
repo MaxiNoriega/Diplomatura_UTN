@@ -19,7 +19,19 @@ function App () {
   return (
     <div className="App">
       <Header />
-      <Navegador />
+
+      <BrowserRouter>
+        <Navegador />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="nostros" element={<NosotrosPage />} />
+          <Route path="gastronomia" element={<GastronomiaPage />} />
+          <Route path="lugares" element={<LugaresPage />} />
+          <Route path="excursiones" element={<ExcursionesPage />} />
+          <Route path="contacto" element={<ContactoPage />} />
+        </Routes>
+      </BrowserRouter>
+      
       <Footer />
     </div>
   );

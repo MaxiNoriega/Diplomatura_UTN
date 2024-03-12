@@ -7,6 +7,11 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+//prueba manejadores de rutas
+var promocionesRouter = require('./routes/promociones');
+var novedadesRouter = require('./routes/novedades');
+//
+
 var app = express();
 
 // view engine setup
@@ -21,6 +26,21 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+// prueba de RUTA
+
+app.get('/home', function(req,res){
+  res.send("Hola, estas en la pagina de Home, disfruta el contenido")
+});
+
+app.get('/nosotros', function(req,res){
+  res.send('Estas en la pagina de nuestra Organizacion')
+});
+
+app.use('/promociones', promocionesRouter);
+app.use('/novedades', novedadesRouter);
+//
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 /* importo los archivos Header, Navegador y Footoer */
+import'./App.css';
 import Header from "./componentes/layout/Header";
 import Navegador from "./componentes/layout/Navegador";
 import Footer from "./componentes/layout/Footer";

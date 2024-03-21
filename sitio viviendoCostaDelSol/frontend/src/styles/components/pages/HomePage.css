@@ -1,0 +1,29 @@
+
+.holder {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.imageneshome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imagen-home1 {
+    /*border: 10px solid rgb(114, 180, 238);*/
+}
+
+.imagen-home2 {
+    /*border: 10px solid rgb(114, 180, 238);*/
+}
+
+.imagen-home3 {
+    /*border: 10px solid rgb(114, 180, 238);*/
+}
+
+.imagen-home4 {
+    /*border: 10px solid rgb(114, 180, 238);*/
+}

@@ -1,8 +1,10 @@
 import React from 'react';
+import '../../src/styles/components/pages/NosotrosPage.css'
 
 const NosotrosPage = (props) => {
     return (
-        <div className="nosotros">
+        <div className="holder">
+            
             <div className="historia">
                 <h2>Nuestra historia</h2>
                 <p>Somos un grupo de amigos que disfrutan la buena gastronomia mediterránea, visitar los lugares mas
@@ -16,9 +18,9 @@ const NosotrosPage = (props) => {
                 </p>
             </div>
 
-            <div className="Contenedor-equipo">
+            <div className="equipo">
                 <h2>Nuestro equipo</h2>
-                <div className="Contenedor-personas">
+                <div className="personas">
                     <div className="persona">
                         <img src="img/nosotros/persona1.jpg" alt="persona1"></img>
                         <h4>Andres Gentile</h4>

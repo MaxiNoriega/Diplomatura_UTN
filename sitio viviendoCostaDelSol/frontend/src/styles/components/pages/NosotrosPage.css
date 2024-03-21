@@ -1,0 +1,44 @@
+.holder {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  
+.historia p {
+    font-size: 14px;
+}
+
+.persona {
+    border-radius: 5px;
+    border: 5px solid rgb(94, 93, 92);
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    /*evita que la caja se agrande ya que tiene dimension de 18%*/
+    background-color: rgb(214, 204, 204);
+    -webkit-box-align: 1px 25px 29px -22px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 25px 29px -22px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 25px 29px -22px rgba(0, 0, 0, 0.75);
+}
+
+.persona p {
+    font-size: 12px;
+    color: rgb(102, 87, 22);
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona img {
+    border-radius: 50%;
+    max-width: 70%;
+}
+
+.persona h4,
+.persona h5 {
+    font-weight: normal;
+    color: rgb(102, 87, 22);
+}

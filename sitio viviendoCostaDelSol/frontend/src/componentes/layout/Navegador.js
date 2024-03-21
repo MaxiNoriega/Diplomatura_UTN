@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navegador = (props) => {
     return (
         <nav>
-            <div>
+            <div className='holder'>
 
                 <ul>
                     <li><Link to="/">Home</Link></li>

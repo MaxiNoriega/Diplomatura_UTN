@@ -1,11 +1,12 @@
 import React from 'react';
+import '../../src/styles/components/pages/HomePage.css'
 
 const HomePage = (props) => {
     return (
-        <div className="Imegenes-homepage">
+        <div className="holder">
 
             <h2>Costa del sol</h2>
-
+            <div className='imageneshome'>
             <div className="imagen-home1">
                 <img src="../img/home/imagenhome1.jpg" alt="imagenhome1" width="270"
                     height="270"></img>
@@ -18,6 +19,7 @@ const HomePage = (props) => {
             </div>
             <div className="imagen-home4">
                 <img src="img/home/imagenhome4.jpg" alt="imagenhome3" width="270" height="270"></img>
+            </div>
             </div>
             <p>La <a href="https://es.wikipedia.org/wiki/Costa_del_Sol" target="_blank">Costa del Sol</a> es la región
                 litoral mediterránea situada en España, en el sur de la provincia de Málaga y a

@@ -36,7 +36,7 @@ app.use(session({
   cookie: { maxAge: null },
   resave: false,
   saveUninitialized: true
-}))
+}));
 
 secured = async (req, res, next) => {
   try {
@@ -49,7 +49,7 @@ secured = async (req, res, next) => {
   } catch (error) {
     console.log(error);
   }//cierre catch error
-}//cierre secured
+};//cierre secured
 
 
 app.use('/', indexRouter);

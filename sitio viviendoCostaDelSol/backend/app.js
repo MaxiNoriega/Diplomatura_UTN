@@ -16,7 +16,7 @@ var usersRouter = require('./routes/users');
 //---------------
 var loginRouter = require('./routes/admin/login');//login.js
 var adminRouter = require('./routes/admin/novedades');//novedades.js
-const session = require('express-session');
+/*const session = require('express-session');*/
 const { error } = require('console');
 
 var app = express();

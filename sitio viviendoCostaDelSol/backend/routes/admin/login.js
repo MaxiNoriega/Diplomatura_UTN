@@ -10,10 +10,10 @@ router.get('/', function (req, res, next) {
   });
 });
 
-router.get('logout', function (req, res, next) {
+router.get('/logout', function (req, res, next) {
   req.session.destroy (); //destruye las variables de sesion usuario y password
   res.render('admin/login',{
-    layout: 'admin/login'
+    layout: 'admin/layout'
   });
 });//cierre Logout
 

@@ -27,6 +27,7 @@
                         <th scope="col">#</th>
                         <th scope="col">Titulo</th>
                         <th scope="col">Subtitulo</th>
+                        <th scope="col">Imagen</th>
                         <th scope="col" class="text-end">Acciones</th>
                     </tr>
                 </thead>
@@ -36,12 +37,14 @@
                         <th scope="row">{{id}}</th>
                         <td>{{titulo}}</td>
                         <td>{{subtitulo}}</td>
+                        <td>{{{imagen}}}</td>
                         <td class="text-end">
                             <a class="btn btn-secondary" href="/admin/novedades/modificar/{{id}}">
                                 <i class="fa fa-pencil" aria-hidden="true"></i></a>
                             <a class="btn btn-secondary" href="/admin/novedades/eliminar/{{id}}">
                                 <i class="fa fa-trash" aria-hidden="true"></i></a>
                         </td>
+                        
                     </tr>
                     {{/each}}
                 </tbody>

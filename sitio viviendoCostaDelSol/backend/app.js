@@ -3,6 +3,9 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var fileUpload = require('express-fileupload');
+var cors = require('cors');
+
 
 //-------
 
@@ -16,6 +19,7 @@ var usersRouter = require('./routes/users');
 //---------------
 var loginRouter = require('./routes/admin/login');//login.js
 var adminRouter = require('./routes/admin/novedades');//novedades.js
+var apiRouter = require('./routes/api')
 /*const session = require('express-session');*/
 const { error } = require('console');
 
@@ -51,12 +55,18 @@ secured = async (req, res, next) => {
   }//cierre catch error
 };//cierre secured
 
+app.use(fileUpload({
+  useTempFiles: true,
+  tempFileDir: '/tmp/'
+}));
+
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 app.use('/admin/login', loginRouter);
 app.use('/admin/novedades', secured, adminRouter);
+app.use('/api', cors(), apiRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

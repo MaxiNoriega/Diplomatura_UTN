@@ -13,7 +13,7 @@ import HomePage from "./pages/HomePage";
 import NosotrosPage from "./pages/NosotrosPage";
 import GastronomiaPage from "./pages/GastronomiaPage";
 import LugaresPage from "./pages/LugaresPage";
-import ExcursionesPage from "./pages/ExcursionesPage";
+import NovedadesPage from "./pages/NovedadesPage";
 import ContactoPage from "./pages/ContactoPage";
 
 function App () {
@@ -28,7 +28,7 @@ function App () {
           <Route path="nosotros" element={<NosotrosPage />} />
           <Route path="gastronomia" element={<GastronomiaPage />} />
           <Route path="lugares" element={<LugaresPage />} />
-          <Route path="excursiones" element={<ExcursionesPage />} />
+          <Route path="novedades" element={<NovedadesPage />} />
           <Route path="contacto" element={<ContactoPage />} />
         </Routes>
       </BrowserRouter>

@@ -26,14 +26,14 @@ const HomePage = (props) => {
                 la zona este del Campo de Gibraltar, en la provincia de Cádiz, al sur de la península ibérica. Está
                 compuesta por 9 municipios: <a href="https://es.wikipedia.org/wiki/Torremolinos"
                     target="_blank">Torremolinos</a>,
-                <a href="https://es.wikipedia.org/wiki/Benalmadena" target="_blank">Benalmádena</a>,
-                <a href="https://es.wikipedia.org/wiki/Mijas" target="_blank">Mijas</a>,
-                <a href="https://es.wikipedia.org/wiki/Fuengirola" target="_blank">Fuengirola</a>,
-                <a href="https://es.wikipedia.org/wiki/Marbella" target="_blank">Marbella</a>,
-                <a href="https://es.wikipedia.org/wiki/Manilva" target="_blank">Manilva</a>,
-                <a href="https://es.wikipedia.org/wiki/Casares_(M%C3%A1laga)" target="_blank">Casares</a>,
-                <a href="https://es.wikipedia.org/wiki/Estepona" target="_blank">Estepona</a> y
-                <a href="https://es.wikipedia.org/wiki/Benahavís" target="_blank">Benahavís</a>.
+                <a href="https://es.wikipedia.org/wiki/Benalmadena" target="_blank"> Benalmádena</a>,
+                <a href="https://es.wikipedia.org/wiki/Mijas" target="_blank"> Mijas</a>,
+                <a href="https://es.wikipedia.org/wiki/Fuengirola" target="_blank"> Fuengirola</a>,
+                <a href="https://es.wikipedia.org/wiki/Marbella" target="_blank"> Marbella</a>,
+                <a href="https://es.wikipedia.org/wiki/Manilva" target="_blank"> Manilva</a>,
+                <a href="https://es.wikipedia.org/wiki/Casares_(M%C3%A1laga)" target="_blank"> Casares</a>,
+                <a href="https://es.wikipedia.org/wiki/Estepona" target="_blank"> Estepona</a> y
+                <a href="https://es.wikipedia.org/wiki/Benahavís" target="_blank"> Benahavís</a>.
             </p>
             
             <p>El despuntar de Torremolinos como destino turístico produjo un efecto dominó, y así, a finales de los años 60

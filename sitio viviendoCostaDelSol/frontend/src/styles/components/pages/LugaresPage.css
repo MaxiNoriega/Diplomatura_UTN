@@ -37,13 +37,6 @@
     transition: .5 ease;
 }
 
-.sitio img:hover {
-    cursor: crosshair;
-    width: 250px;
-    opacity: 1;
-    filter: contrast(120%);
-}
-
 .info {
     padding: 20px;
     width: 65%;
@@ -61,6 +54,6 @@
 
 }
 
-.Lugares:nth-child(even) {
+.lugares:nth-child(even) {
     flex-direction: row-reverse;
 }
